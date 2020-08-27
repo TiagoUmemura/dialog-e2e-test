@@ -1,0 +1,27 @@
+{
+  "name": "dialog-e2e-test",
+  "version": "1.0.0",
+  "description": "dialog-test",
+  "main": "index.js",
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criticalmassbr/dialog-e2e-test.git"
+  },
+  "author": "Tiago Kenji Umemura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/criticalmassbr/dialog-e2e-test/issues"
+  },
+  "homepage": "https://github.com/criticalmassbr/dialog-e2e-test#readme",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^5.2.1"
+  }
+}
